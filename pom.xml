@@ -15,10 +15,15 @@
         <url>https://github.com/bt-kaglidden/test101</url>
     </scm>
 
+    <!-- <parent> -->
+    <!--     <groupId>org.sonatype.oss</groupId> -->
+    <!--     <artifactId>oss-parent</artifactId> -->
+    <!--     <version>7</version> -->
+    <!-- </parent> -->
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
+        <groupId>com.basistech</groupId>
+        <artifactId>basis-parent</artifactId>
+        <version>45</version>
     </parent>
 
     <properties>
