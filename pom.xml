@@ -11,10 +11,10 @@
     <description>Basis Technology's Rosette analysis plugin for ElasticSearch</description>
     <inceptionYear>2013</inceptionYear>
     <scm>
-        <connection>scm:git:git@github.com:basis-technology-corp/elasticsearch-analysis-rosette.git</connection>
-        <developerConnection>scm:git:git@github.com:basis-technology-corp/elasticsearch-analysis-rosette.git
+        <connection>scm:git:git@github.com:bt-kaglidden/test101.git</connection>
+        <developerConnection>scm:git:git@github.com:bt-kaglidden/test101.git
         </developerConnection>
-        <url>https://github.com/basis-technology-corp/elasticsearch-analysis-rosette</url>
+        <url>https://github.com/bt-kaglidden/test101</url>
     </scm>
 
     <parent>
