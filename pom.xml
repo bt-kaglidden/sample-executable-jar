@@ -30,13 +30,13 @@
         <rlp.save.results.version>10.4</rlp.save.results.version>
     </properties>
 
-    <repositories>
-      <repository>
-        <id>sonatype</id>
-        <name>elasticsearch sonatype repo</name>
-        <url>https://oss.sonatype.org/content/repositories/releases</url>
-      </repository>
-    </repositories>
+    <!-- <repositories> -->
+    <!--   <repository> -->
+    <!--     <id>sonatype</id> -->
+    <!--     <name>elasticsearch sonatype repo</name> -->
+    <!--     <url>https://oss.sonatype.org/content/repositories/releases</url> -->
+    <!--   </repository> -->
+    <!-- </repositories> -->
 
     <dependencies>
         <dependency>
