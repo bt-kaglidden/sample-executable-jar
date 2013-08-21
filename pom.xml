@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.basistech.elasticsearch</groupId>
     <artifactId>elasticsearch-analysis-rosette</artifactId>
-    <version>0.9.2-SNAPSHOT</version>
+    <version>0.9.2</version>
     <packaging>jar</packaging>
     <description>Basis Technology's Rosette analysis plugin for ElasticSearch</description>
     <inceptionYear>2013</inceptionYear>
@@ -13,7 +13,8 @@
         <developerConnection>scm:git:git@github.com:bt-kaglidden/test101.git
         </developerConnection>
         <url>https://github.com/bt-kaglidden/test101</url>
-    </scm>
+      <tag>elasticsearch-analysis-rosette-0.9.2</tag>
+  </scm>
 
     <!-- <parent> -->
     <!--     <groupId>org.sonatype.oss</groupId> -->
