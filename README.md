@@ -1,4 +1,6 @@
-h1. test101
-=======
+Executable JAR
+--------------
 
-experiments. nothing to see here.
+This is an executable JAR package. To run it, use the following command:
+
+java -jar test101.jar
