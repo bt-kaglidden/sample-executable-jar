@@ -4,7 +4,7 @@
 
     <groupId>com.basistech.test-ken</groupId>
     <artifactId>test101</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <scm>
@@ -14,35 +14,11 @@
         <url>https://github.com/bt-kaglidden/test101</url>
   </scm>
 
-    <!-- <parent> -->
-    <!--     <groupId>com.basistech</groupId> -->
-    <!--     <artifactId>basis-parent</artifactId> -->
-    <!--     <version>45</version> -->
-    <!-- </parent> -->
-
-    <distributionManagement>
-      <repository>
-        <id>basistech.repo</id>
-        <name>Basis Local Repository</name>
-        <url>
-          http://maven.basistech.net/nexus/content/repositories/releases/
-        </url>
-      </repository>
-      <snapshotRepository>
-        <id>basistech.snapshot.repo</id>
-        <name>Basistech Local Snapshot Repository</name>
-        <url>
-          http://maven.basistech.net/nexus/content/repositories/snapshots/
-        </url>
-        <uniqueVersion>false</uniqueVersion>
-      </snapshotRepository>
-    </distributionManagement>
-
-    <!-- <parent> -->
-    <!--     <groupId>org.sonatype.oss</groupId> -->
-    <!--     <artifactId>oss-parent</artifactId> -->
-    <!--     <version>7</version> -->
-    <!-- </parent> -->
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
