@@ -67,6 +67,16 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
+        <dependency>
+            <groupId>com.basistech.rse</groupId>
+            <artifactId>rse-generic</artifactId>
+            <version>1.11.0-RC3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.basistech</groupId>
+            <artifactId>common</artifactId>
+            <version>21</version>
+        </dependency>
     </dependencies>
 
     <build>
