@@ -68,6 +68,11 @@
             <version>1.2.17</version>
         </dependency>
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+        <dependency>
             <groupId>com.basistech.rse</groupId>
             <artifactId>rse-generic</artifactId>
             <version>1.11.0-RC3</version>
@@ -77,6 +82,15 @@
             <artifactId>common</artifactId>
             <version>21</version>
         </dependency>
+        <dependency>
+            <groupId>com.basistech</groupId>
+            <artifactId>tagger</artifactId>
+            <version>2.0</version>
+            <scope>system</scope>
+            <systemPath>/Users/ken/tmp/rse-2.0-jarjar/samples/self-contained-via-jarjar/build/jar/tagger.jar</systemPath>
+        </dependency>
+
+
     </dependencies>
 
     <build>
