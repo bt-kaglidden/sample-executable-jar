@@ -67,6 +67,26 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.basistech.rbl</groupId>
+            <artifactId>rbl-generic</artifactId>
+            <!-- Test for ETROG-2444
+            If the version is 7.17.2.c58.3, we will see the "multiple SLF4Js" warning
+            With 7.17.100.c58.3-SNAPSHOT, the version I built from the
+            ETROG-2444 branch which has the desired fix, we see the warning goes away. -->
+            <version>7.17.100.c58.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>1.7.5</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
